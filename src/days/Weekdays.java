@@ -4,15 +4,18 @@
  */
 package days;
 
+
 /**
  *
  * @author sivagamasrinivasan
  */
 public class Weekdays 
 {
-  public void nameOfDay(String code)
+  
+    public enum days {ONE,TWO,THREE,FOUR,FIVE,SIX,SEVEN};
+    public void nameOfDay(days code)
      {
-    switch(code.toUpperCase())
+      switch(code.toUpperCase)
       {
       case "ONE":
         System.out.println("Monday");
